@@ -8,13 +8,13 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	padding-bottom: 8px;
 	margin: 0;
 }
 
 #layout-menu {
-	background: #f6f6f6;
+	background: #E3E3E3;
 	border: 3px solid #dddddd;
 	padding-top: 0.5em;
 	padding-left: 16px;
@@ -56,7 +56,7 @@ pre, tt {
 }
 
 a, a > tt {
-	color: #03A9F4;
+	color: #0069C7;
 	text-decoration: none;
 }
 
@@ -69,7 +69,7 @@ a:hover {
 	border-bottom: 1px gray solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #6666FF;
+	color: #120AAE;
 	text-decoration: none;
 }
 #layout-menu a:hover {
@@ -117,7 +117,7 @@ strong {
 
 
 h1, h2, h3 {
-	color: #6666FF;
+	color: #120AAE;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
@@ -127,12 +127,12 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 165%;
+	font-size: 200%;
 }
 
 h2 {
 	padding-top: 0.8em;
-	font-size: 125%;
+	font-size: 150%;
 }
 
 h2 + h3 {
@@ -140,7 +140,7 @@ h2 + h3 {
 }
 
 h3 {
-	font-size: 110%;
+	font-size: 125%;
 	border-bottom: none;
 }
 
@@ -250,7 +250,7 @@ div.blockcontent {
 }
 
 div.infoblock > div.blockcontent {
-	background: #EAECEE;
+	background: #D7DDFE;
 }
 
 div.blockcontent p + ul, div.blockcontent p + ol {
