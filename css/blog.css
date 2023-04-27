@@ -221,3 +221,26 @@ hr {
   columns: 2;
   column-fill: balance;
 }
+
+.toc__list:before {
+  content: "Table of Contents";
+  font-weight: bold;
+  font-size: 1.5rem;
+ }
+.toc__list {
+margin-bottom: 50px;
+line-height: 2rem;
+padding: 1rem 1.5rem;
+}
+.toc__sublist li {
+padding-left: 1.25rem;
+}
+.toc-h2:first-child {
+margin-top: 1rem;
+}  
+#toc a {
+  color: rgba(0, 0, 0, 1);
+}
+#toc a:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
