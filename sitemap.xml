@@ -14,6 +14,17 @@
 <loc>http://localhost:4000/note/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/publications/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/pdfs/HTEMTL/2048Grouped%20Multi-Task%20Learning%20with%20Hidden%20Tasks%20Enhancement.pdf</loc>
+<lastmod>2023-10-04T08:33:33+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/pdfs/HTEMTL/HTEMTL_full.pdf</loc>
+<lastmod>2023-07-28T15:53:43+08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/assets/pdfs/ebm.pdf</loc>
 <lastmod>2023-04-13T02:15:42+08:00</lastmod>
 </url>
