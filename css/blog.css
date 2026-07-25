@@ -325,13 +325,16 @@ hr {
     margin: 0 7px;
   }
   .publication {
-    grid-template-columns: 1fr;
-    row-gap: 0.5rem;
+    grid-template-columns: 60px 1fr;
+    column-gap: 8px;
     padding: 1.2rem 0 0.2rem;
   }
-  .publication-badges {
-    flex-direction: row;
-    padding-top: 0;
+  .publication-body {
+    padding-right: 0;
+  }
+  .pub-badge {
+    padding: 0.1rem 0.4rem;
+    font-size: 11px;
   }
   .publication-title {
     font-size: 16px;
