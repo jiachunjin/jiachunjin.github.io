@@ -1,6 +1,6 @@
 ---
 layout: home
-update_time: 2026.07
+update_time: "2026.10"
 ---
 
 ## Jiachun Jin
