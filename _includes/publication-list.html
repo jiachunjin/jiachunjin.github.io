@@ -1,0 +1,32 @@
+<div class="publication-list">
+  {% for pub in site.data.publications %}
+    {% if include.selected_only and pub.selected != true %}
+      {% continue %}
+    {% endif %}
+    <article class="publication">
+      <div class="publication-badges">
+        {% if pub.tag and pub.tag != "" %}
+          <span class="pub-badge pub-badge-venue">{{ pub.tag }}</span>
+        {% endif %}
+        {% if pub.award and pub.award != "" %}
+          <span class="pub-badge pub-badge-award">{{ pub.award }}</span>
+        {% endif %}
+      </div>
+      <div class="publication-body">
+        <h4 class="publication-title">{{ pub.title }}</h4>
+        <p class="publication-authors">{{ pub.authors | replace: "Jiachun Jin", "<span class='publication-me'>Jiachun Jin</span>" }}</p>
+        {% if pub.venue and pub.venue != "" %}
+          <p class="publication-venue">{{ pub.venue }}</p>
+        {% endif %}
+        {% if pub.award_text and pub.award_text != "" %}
+          <p class="publication-award">{{ pub.award_text }}</p>
+        {% endif %}
+        <p class="publication-links">
+          {% for link in pub.links %}
+            <a href="{{ link.url }}">{{ link.name }}</a>
+          {% endfor %}
+        </p>
+      </div>
+    </article>
+  {% endfor %}
+</div>

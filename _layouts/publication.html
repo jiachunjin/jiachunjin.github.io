@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Publications</title>
+        <meta charset='UTF-8'>
+        <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    
+        <meta name='description' content='Jiachun Jin is a master student at ShanghaiTech.'>
+        <!-- A decent browser will parse this fine:
+             https://webmasters.stackexchange.com/questions/92744. -->
+        <meta name='keywords' content='
+            machine learning,
+            bayesian inference,
+            deep learning,
+            computer science
+        '>
+        <meta name='author' content='Jiachun Jin'>
+    
+        <link href='/css/blog.css' rel='stylesheet'/>
+        <link rel="shortcut icon" href=" /favicon.ico" />
+    
+        {% include mathjax.html %}
+    </head>
+<body>
+<div class='content'>
+    {% include nav.html %}
+    <div class='wrap article' style="margin-top: 60px;">
+        {{ content }}
+    </div>
+</div>
+</body>
+</html>

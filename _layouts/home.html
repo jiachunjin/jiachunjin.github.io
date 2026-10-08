@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Jiachun Jin</title>
+        <meta charset='UTF-8'>
+        <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    
+        <meta name='description' content='Jiachun Jin is a master student at ShanghaiTech.'>
+        <!-- A decent browser will parse this fine:
+             https://webmasters.stackexchange.com/questions/92744. -->
+        <meta name='keywords' content='
+            machine learning,
+            bayesian inference,
+            deep learning,
+            computer science
+        '>
+        <meta name='author' content='Jiachun Jin'>
+    
+        <link href='/css/blog.css' rel='stylesheet'/>
+        <link rel="shortcut icon" href=" /favicon.ico" />
+    
+        {% include mathjax.html %}
+    </head>
+<body class='has-footer'>
+<div class='content'>
+    {% include nav.html %}
+    <div class='wrap article' style="margin-top: 60px;">
+        {{ content }}
+    </div>
+</div>
+
+<footer class='site-footer'>Last Update: {{ page.update_time }}</footer>
+
+<!-- <footer align=center style="line-height: 1em; color: rgba(0, 0, 0, 0.4);" ><font size="2">
+    <p>Powered by <a href="https://jekyllrb.com/" style="color: rgba(0, 0, 0, 0.4);">Jekyll</a>, theme adopted from <a href="http://gregorygundersen.com/" style="color: rgba(0, 0, 0, 0.4);">Gregory Gundersen</a>.</p>
+    <!-- <a href="https://beian.miit.gov.cn/" target="_blank" style="color: rgba(0, 0, 0, 0.4);">沪ICP备2023002566号-1</a> -->
+<!-- </font></footer> -->
+</body>
+</html>
