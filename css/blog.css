@@ -158,6 +158,28 @@ h1 {
 .article hr {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  margin-top: 1rem;
+}
+.profile-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.profile-links a:hover, .profile-links a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.profile-links svg {
+  width: 1em;
+  height: 1em;
+  flex: none;
+}
 .publication-list {
   margin: 0.25rem 0 2.5rem;
 }

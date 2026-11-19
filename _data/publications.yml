@@ -3,6 +3,17 @@
 #   award:      short label shown in the outlined badge (e.g. Oral, Spotlight)
 #   award_text: full award line shown under the venue
 
+- title: "SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models"
+  authors: "Jiachun Jin*, Zetong Zhou*, Haonan Wang, and Zhijie Deng"
+  tag: "Preprint"
+  venue: "arXiv:2611.17110, 2026."
+  selected: false
+  links:
+    - name: "arXiv"
+      url: "https://arxiv.org/abs/2611.17110"
+    - name: "project"
+      url: "https://sala-vla.github.io/"
+
 - title: "LatentUM: Unleashing the Potential of Interleaved Cross-Modal Reasoning via a Latent-Space Unified Model"
   authors: "Jiachun Jin, Zetong Zhou, Xiao Yang, Hao Zhang, Pengfei Liu, Jun Zhu and Zhijie Deng"
   tag: "NeurIPS"
@@ -15,6 +26,19 @@
       url: "https://arxiv.org/abs/2604.02097"
     - name: "code"
       url: "https://github.com/SJTU-DENG-Lab/LatentUM"
+
+- title: "MirrorPPR: Exemplar-Based Portrait Photo Retouching"
+  authors: "Zhihong Liu, Zheng Li, Jiachun Jin, Siqi Kou, Yitao Jian, Fengpei Yu, and Zhijie Deng"
+  tag: "ECCV"
+  venue: "European Conference on Computer Vision (ECCV), 2026."
+  selected: false
+  links:
+    - name: "arXiv"
+      url: "https://arxiv.org/abs/2606.29308"
+    - name: "project"
+      url: "https://sjtu-deng-lab.github.io/MirrorPPR/"
+    - name: "code"
+      url: "https://github.com/SJTU-DENG-Lab/MirrorPPR"
 
 - title: "Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders"
   authors: "Siqi Kou*, Jiachun Jin*, Zetong Zhou*, Ye Ma, Yugang Wang, Quan Chen, Peng Jiang, Xiao Yang, Jun Zhu, Kai Yu, and Zhijie Deng"
