@@ -9,7 +9,8 @@ update_time: "2026.11"
     <p class="profile-affiliation">Ph.D. Student<br>Shanghai Jiao Tong University</p>
     <div class="profile-bio">
         <h2 class="profile-about-title">About</h2>
-        <p>I am a Ph.D. student in Computer Science at Shanghai Jiao Tong University (SJTU), working with <a href="https://thudzj.github.io/">Prof. Zhijie Deng</a>. I am currently interning at <a href="https://www.sharpa.com/">Sharpa</a>. My research lies in multi-modal generative models, with a recent focus on cross-modal alignment and applications in content generation and embodied AI.</p>
+        <p>I am a Ph.D. student in Computer Science at Shanghai Jiao Tong University (SJTU), working with <a href="https://thudzj.github.io/">Prof. Zhijie Deng</a>. I am currently interning at <a href="https://www.sharpa.com/">Sharpa</a>.</p>
+        <p>My research focuses on multimodal generative models and representation learning. I am currently interested in how to design multimodal models from first principles so that language and other perceptual modalities work together more effectively to advance multimodal intelligence.</p>
     </div>
     <div class="profile-links">
         <a href="mailto:jiachun.jin@sjtu.edu.cn">
