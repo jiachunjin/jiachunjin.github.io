@@ -192,6 +192,7 @@ h1 {
   margin: 0 0 12px 26px;
 }
 .profile-bio p { margin: 0; }
+.profile-bio p + p { margin-top: 0.75em; }
 .home-content hr {
   border: 0;
   border-top: 1px solid #d9dcde;
